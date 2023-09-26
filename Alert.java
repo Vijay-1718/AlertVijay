@@ -42,6 +42,8 @@ public class AlertDemo {
 		WebElement ele3=driver.findElement(By.xpath("//*[@onclick='lineBreaks()']"));
 		ele3.click();
 		Alert a4 = driver.switchTo().alert();
+
+		I have forked this alert file
 		
 	String s=a4.getText();
 	a4.accept();
